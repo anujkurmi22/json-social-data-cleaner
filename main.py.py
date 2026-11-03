@@ -9,7 +9,7 @@ data = load_data("anuj1.json")
 def display_data(data):
     print("*______________USER____________*")
     for user in data["users"]:
-       
+        
         print(f"User id: {user['id']}\t Friends :{user['friends']}\tLike pages: {user['liked_pages']}")
     print("*______________PAGE____________*")
     for page in data["pages"]:
